@@ -1,0 +1,22 @@
+.line-chart-container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 15px;
+  border-radius: 2px;
+
+  @media (max-width: 860px) {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+
+.chart-title {
+  font-size: larger;
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+}
